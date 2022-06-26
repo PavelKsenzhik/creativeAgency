@@ -818,11 +818,7 @@ body {
   transition: all 0.8s ease 0.2s;
 }
 
-.about-btn._active {
-  -webkit-transition: all 0.8s ease 0.4s;
-  -o-transition: all 0.8s ease 0.4s;
-  transition: all 0.8s ease 0.4s;
-}
+
 
 .feature {
   -webkit-box-sizing: border-box;
