@@ -512,6 +512,7 @@ body {
   line-height: 30px;
   color: #ffffff;
   letter-spacing: 0.45px;
+  word-wrap: break-word;
 }
 
 .container {
@@ -709,13 +710,13 @@ body {
   text-transform: uppercase;
   padding: 20px 50px 20px 54px;
   background-color: #f56131;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.0s;
+  -o-transition: all 0.0s;
+  transition: all 0.0s;
   border: 2px solid #f56131;
-  -webkit-transform: translate(0px, 120%);
-      -ms-transform: translate(0px, 120%);
-          transform: translate(0px, 120%);
+  -webkit-transform: translate(0px, 50%);
+      -ms-transform: translate(0px, 50%);
+          transform: translate(0px, 50%);
   opacity: 0;
   -webkit-transition: 0.8s;
   -o-transition: 0.8s;
@@ -734,6 +735,9 @@ body {
 
 .button-main:hover {
   background: none;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 
 .button-main:active {
@@ -899,11 +903,17 @@ body {
 
 .feature__btn:hover {
   color: #2f2339;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .feature__btn:active {
   color: #fff;
   background-color: #2f2339;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .feature__icon {
